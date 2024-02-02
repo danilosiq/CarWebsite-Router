@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(44, 44, 44);
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(73, 73, 73);
+  width: 90%;
+  height: 180px;
+  margin: 1%;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.CardIMG {
+  object-fit:cover;
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.diviCard {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.diviCard p{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.diviCard button {
+  width: 100%;
+  cursor: pointer;
+  height: 35px;
+  background-color: rgb(98, 98, 253);
+  border-style: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+
+.cardsR {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;}
+
+.SRcontainer {
+  width: 80%;
+  margin: auto;
+  color: aliceblue;
+  display: flex;
+}
+
+.LateralCamp{
+  width: 30%;
+  background-color: rgb(53, 53, 53);
+  padding: 1%;
+  border-radius: 10px;
+  height: 460px;
+  margin-right: 10px;
+}
+
+.boxFilter label{
+  margin: 1%;
+}
+
+
+
+.m{
+  font-size: 12px;
+  color: rgb(180, 180, 180);
+}
+.About-Container{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100vh;
+}
+.About-Container img{
+  border-radius: 50%;
+  width: 100%;
+}
+.AboutIMG{
+  width: 40%;
+}
+.paragraph{
+  color: rgb(224, 224, 224);
+  width: 50%;
+  text-indent: 20px;
+}
+.paragraph h1{
+  margin-bottom: 60px;
+}
+.paragraph ul{
+  margin-top: 10px;
+
+}
+.paragraph ul li{
+  margin-top: 15px;
+}
+
+
+.header-bg {
+  z-index: 1;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: -120px;
+}
+
+
+
+.header-content {
+  z-index: 3;
+  margin-top: -520px;
+}
+
+.header-box {
+  background-color: rgb(48, 48, 207);
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-around;
+}
+.header-container{
+  margin-bottom: 50px;
+}
+
+.h-box-welcome {
+  color: aliceblue;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: space-around;
+}
+
+.header-box img {
+  width: 50%;
+  object-fit: contain;
+  height: 500px;
+}
+
+

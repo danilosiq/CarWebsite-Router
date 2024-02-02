@@ -1,0 +1,35 @@
+.nav li a {
+    color: aliceblue;
+}
+
+.nav li  {
+    list-style: none;
+}
+
+.nav nav {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.nav nav ul{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-around;
+}
+.nav{
+    display: flex;
+    height: 90px;
+    align-items: center;
+    margin-bottom: 40px;
+
+    width: 100%;
+
+}
+
+.nav img{
+    object-fit: contain;
+    height: 80px;
+    border-radius: 50%;
+}

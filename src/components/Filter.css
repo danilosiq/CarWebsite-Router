@@ -1,0 +1,29 @@
+.boxFilter{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.ContainerFilter{
+    margin: 4%;
+}
+
+.ContainerFilter fieldset{
+    border-radius: 10px;
+}
+
+.subFilter{
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    border-style: none;
+    background-color: rgb(93, 185, 93);
+    color: aliceblue;
+    cursor: pointer;
+    transition: 130ms ease;
+}
+
+.subFilter:hover{
+    background-color: rgb(68, 145, 68);
+
+}

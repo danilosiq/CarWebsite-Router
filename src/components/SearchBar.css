@@ -1,0 +1,33 @@
+.searchBarContainer{
+    display: flex;
+
+}
+
+
+.BarSearch{
+    background-color: transparent;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-color: aliceblue;
+    color: aliceblue;
+}
+
+.BarSearch:focus{
+    outline: none;
+}
+.submit{
+    border-radius: 3px;
+    padding: 9px;
+    border-style: none;
+    background-color: rgb(93, 185, 93);
+    margin-left: 10px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 130ms ease;
+}
+
+.submit:hover{
+    background-color: rgb(68, 145, 68);
+
+}
